@@ -1,0 +1,97 @@
+﻿.list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.list_carousel li {
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	width: 770px;
+	padding: 0;
+	display: block;
+	float: left;
+}
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+.prev {
+	float: left;
+	margin-left: 10px;
+}
+.next {
+	float: right;
+	margin-right: 10px;
+}
+.pager {
+	float: left;
+	width: 620px;
+	text-align: center;
+	height:25px;
+}
+.pager a {
+	margin: 0 5px;
+	text-decoration: none;
+}
+.pager a.selected {
+	text-decoration: underline;
+}
+.timer {
+	background-color: #999;
+	height: 6px;
+	width: 0px;
+}
+
+div.pagination {
+    padding: 1px 20px;
+    text-align: center;
+    overflow:hidden;display:inline-block;float:left;
+    height:12px;
+    background:#f7f7f7;
+    border-top:1px solid #dedede;
+    border-bottom:1px solid #dedede;
+}
+
+div.pagination a span {
+    display: none;
+}
+div.pagination a,div.pagers a {
+    background: url("../../Images/bg-slider-pager1.png") no-repeat scroll -32px -2px;
+    cursor: pointer;
+    float: left;
+    height: 12px;
+    margin: 0 2px 0 0;
+    overflow: hidden;
+    width: 13px;
+    text-indent:-9999;
+}
+div.pagination a.selected,div.pagination a:hover {
+    background-position: -32px -23px;
+   
+}
+div.pagers a.next {
+    background-position: -86px 0px;
+    height: 16px;
+    margin: 0px;
+    width: 16px;
+    display:block;
+}
+div.pagers a.prev {
+    background-position: 0px 0px;
+    height: 16px;
+    margin: 0px;
+    width: 16px;
+    display:block;
+}
+div.pagers a.next:hover {
+    background-position: -86px -21px;
+}
+div.pagers a.prev:hover {
+    background-position: 0px -21px;
+}
+div.pagers a {
+    position: relative;
+}

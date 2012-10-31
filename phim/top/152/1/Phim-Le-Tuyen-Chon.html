@@ -1,0 +1,1740 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+<link href="http://phim.soha.vn/images/logo.ico" rel="shortcut icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="CpnFRfIJaqn9OUOn9zA6Ca6kBjyotW8x0TxJcYC_BnY" />
+<meta http-equiv="EXPIRES" content="10000" />
+<meta name="resource-type" content="Document" />
+<meta name="distribution" content="Global" />
+<meta name="author" content="Soha Phim" />
+<meta name="copyright" content="Công ty cổ phần Truyền Thông Việt Nam - Vccorp" />
+<meta name="robots" content="index,follow" />
+<meta name="generator" content="phim.soha.vn" />
+<meta http-equiv="audience" content="General" />
+<meta name="revisit-after" content="1 days" />
+<meta name="GENERATOR" content="Phim Soha" />
+<meta content="Microsoft Visual Studio 8.0" name="GENERATOR" />
+<meta content="C#" name="CODE_LANGUAGE" />
+<meta content="JavaScript" name="vs_defaultClientScript" />
+<meta name="RATING" content="GENERAL" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta property="fb:page_id" content="118012044979242" />
+<link href="http://phim.soha.vn/Compression/CssHandler.ashx?v=2.1.84" type="text/css" rel="stylesheet" />
+<script src="http://phim.soha.vn/Compression/ScriptHandler.ashx?v=2.1.53" type="text/javascript" ></script>
+<script src="http://phim.soha.vn/script/58/comm.script" type="text/javascript" ></script>
+
+<!--pay ment -->
+<link type="text/css" rel="Stylesheet" href="http://pay.phim.soha.vn/Content/Site.css?v=1.0"/>
+<script src="http://pay.phim.soha.vn/Scripts/Mybox.js?v=1.0" type="text/javascript"></script>
+
+<!--Note -->
+
+
+    <style type="text/css">
+        .box_player
+        {
+            width: 663px !important;
+            height: 387px !important;
+            margin-top: 12px !important;
+            padding-left: 0px !important;
+        }
+        .box_player ul
+        {
+            list-style-type: disc;
+            line-height: 30px;
+            padding: 17px 10px 0px 38px;
+            color:#555555;
+        }
+        b.chuoi
+        {
+            color:#555555;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            var pageSize = $(".lstFilm .item").size();
+            var effItem = pageSize % 4;
+            effItem == 0 ? effItem = 5 : effItem += 1;
+            $(".lstFilm .item:gt(" + (pageSize - effItem) + ")").addClass("nBor");
+
+            $(".hidden-tip").each(function () {
+                var fID = $(this).attr("fID");
+                $(this).load("/ajaxload/popupFilm.aspx?id=" + fID, function (ret) {
+                    $(".lstFilm .img").easyTooltip({
+                        useElement: "hidden-tip"
+                    });
+                })
+            })
+            $(".lstFilm .item").groupItem(4);
+            $(".lstFilm .img").hover(function () { $(".iconPlayL", this).show() }, function () { $(".iconPlayL", this).hide() });
+
+        });
+        var guidValue;
+        $(document).ready(function () {
+            guidValue = $("#guidValue").html();
+            $("#lnkDownloadPlaer").click(function () {
+                downloadPlayer("", guidValue);
+            });
+            if (navigator.appVersion.indexOf("Mac") != -1) {
+                $("#img_mac").attr("src", "http://phim.soha.vn/images/3imgplayer_korea.jpg");
+            }
+            if (window.location.href.indexOf("welcome") > -1) {
+                $("#div_box_player").show();
+            }
+        });
+    </script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var titlebox = window.location.href.split('http://phim.soha.vn/');
+
+            $("a[href*='/hd/watch']").each(function () {
+                var aaa = $(this).attr('href');
+                aaa = aaa.replace('utm_medium=event', 'utm_medium=' + titlebox[6].toLowerCase().replace('.html',''));
+                
+                $(this).attr('href', aaa);
+            });
+        });
+        function get_ex_url() {
+            return "";
+            var url = window.location.href.split('http://phim.soha.vn/');
+            var url_ex = "?utm_source=" + url[3].replace('-', '_') + "&utm_medium=" + url[url.length - 1].replace('.html', '').replace('-', '_') + "&utm_campaign=listing";
+            return url_ex;
+        }
+    </script>
+<meta name="keywords" content="Phim Le Tuyen Chon,kiếm hiệp, võ thuật, phim ma, kinh dị, top phim, Hoạt hình, Anime, Cartoon, nóng bỏng, tìm nhiều nhất, hot nhất, download, miễn phí, funny, free, hình sự, tâm lý, tình cảm, phim bộ, phim truyền hình" /><meta name="description" content="Tất cả các phim Phim Le Tuyen Chon trang 1, mới nhất - hay nhất. Phim online, phim trực tuyến, xem phim miễn phí, film free, hot movie, phim mới, phim bộ, phim lẻ, phim truyền hình, phim điện ảnh, phim Hàn Quốc…" /><title>
+	Phim Le Tuyen Chon trang 1 | phim.soha.vn
+</title></head>
+<body>
+    <form name="frmHome" method="post" action="http://phim.soha.vn/top/152/1/phim-newupdate.aspx?page=1&amp;chanel=152&amp;title=Phim-Le-Tuyen-Chon" id="frmHome">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY3NjkzNjA0OGRkjpECJQ2IaRKr1nJpow/OVnIdk/8=" />
+
+        <div id="guidValue" style="display: none;">e1b68e80-c751-4da2-adc1-d1030a36e055</div>
+    
+        <div id="pageTB1_rp_item_ctl00_dvTB" class="navTB">
+            <a style="color: red;" target="_blank" href='http://phim.soha.vn/xem-tinh-nang-moi/27/Phim-moi-nong-hoi-nhan-ngay-thong-bao.html'>
+                <div style="background-color: #F6E2A3; height: 30px; text-align: center; line-height: 30px;">
+                    <b>
+                        Phim mới nóng hổi, nhận ngay thông báo!</b></div>
+            </a>
+        </div>
+    
+<script>$(function () {$('div[id*=dvSohaheader]').css('padding-top', '60px');});</script>
+
+    <div class="container">
+        <!--Page Header-->
+        
+<script src="http://phim.soha.vn/mingmodules/json.js" type="text/javascript"></script>
+<script src="http://phim.soha.vn/mingid/mingid.js?v=1.6" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $.getScript("http://id.ming.vn/login/checksession");
+    function mingAuthCallBack(data) {
+
+        if (data != 'null') {
+            var rels = eval('(' + data + ')');
+
+            $.post("/mingidmodules/doLogin.aspx", { id: rels.id, nick: rels.username, email: rels.email, checksum: rels.checksum, modifi: rels.modified_time }, function (retval) {
+                if (retval == "1")
+                    window.location.reload();
+            });
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    function open_xem_le(url) {
+        var width = 730;
+        var height = 560;
+        if (navigator.appVersion.indexOf("MSIE") != -1) {
+            height -= 150;
+        }
+        var left = (screen.width / 2) - (width / 2);
+        var top = (screen.height / 2) - (height / 2);
+        window.open(url, "", '"resizable=no,scrollbars=yes,width=' + width + 'px,height=' + height + 'px,left=' + left + ',top=' + top + '"');
+    }
+</script>
+<div class="navSoha">
+    <input type="hidden" name="page_header1$hidIsSPVip" id="page_header1_hidIsSPVip" value="0" />
+    <div class="contai">
+        <ul class="lstSoha clear fLeft" style="width: auto;">
+            <li><a target="_blank" href="http://phim.soha.vn/huong-dan/17/Xem-phim-HD-tren-Soha-Phim.html">
+                Hướng dẫn</a></li>
+            
+            <li><a target="_blank" href="http://phim.soha.vn/hd/xem-thu-phim-hd.html">Xem thử HD</a></li>
+            <li><a target="_blank" href="http://phim.soha.vn/huong-dan/33/Danh-sach-dai-ly-ban-the-cao-Soha-Phim.html">
+                Đại lý thẻ cào</a></li>
+        </ul>
+        
+        <div class="fRight" id="mingpanel">
+            <input name="page_header1$hidUserLogin" type="hidden" id="page_header1_hidUserLogin" />
+            
+            <div id="page_header1_notsignin" class="clear">
+                <a href="javascript:void(0)" onclick="openLoginWindow();" class="bold">Đăng nhập</a>
+                | <a href="javascript:void(0)" onclick="openRegisWindow();" class="bold">Đăng ký</a></div>
+        </div>
+    </div>
+</div>
+<div id="page_header1_dvSohaheader" class="sohaheader" style="padding-top: 35px">
+    <a class="logo dis" href="http://phim.soha.vn/"></a>
+    <div class="fLeft" style="margin: 3px 0 0 35px;">
+        <div class="search" style="position: relative">
+            <input name="page_header1$txtMainSearch" type="text" id="page_header1_txtMainSearch" onkeyup="suggession(event,this)" autocomplete="off" class="text fLeft" value="Nhập tên phim, diễn viên hoặc đạo diễn..." />
+            <input type="button" class="btnB fLeft btnBIE" value="Tìm" onclick="searchFilm()" />
+            <img id="imgLoadding" src="http://phim.soha.vn/images/loading.png" />
+            <div id="boxDiv">
+                
+                <div class="sugKey">
+                    Kết quả tìm kiếm với</div>
+                <div id="boxSuggestion">
+                    <div id="lstResultSearchFilm" class="lstSearch" style="display: none;">
+                        <div class="sugCat">
+                            Phim</div>
+                        <div id="resultFilm" class="result">
+                        </div>
+                    </div>
+                    <div id="lstResultSearchActor" class="lstSearch" style="display: none;">
+                        <div class="sugCat">
+                            Diễn Viên</div>
+                        <div id="resultActor" class="result">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $('html').click(function () {
+            $("#boxDiv").hide();
+        });
+        $('#boxDiv').click(function (event) {
+            event.stopPropagation();
+        });
+        var divItems = null;
+        var timeout = null;
+        var keyword = "";
+        var curPointer = -1;
+        var countDivItem = 0;
+        var curLink = "";
+        var ajaxObj = null;
+        function suggession(e, e1) {
+            var charCode = (e.which) ? e.which : e.keyCode;
+            if (charCode == 13) {//enter
+                if (timeout != null) clearTimeout(timeout);
+                if (ajaxObj != null) ajaxObj.abort();
+                if (curLink != "" && curLink != null) {
+                    window.location.href = curLink;
+                    return false;
+                }
+            } else
+                if (charCode == 38) {//keyup
+                    selectDiv(-1);
+                    return false;
+                } else
+                    if (charCode == 40) {//keydown
+                        selectDiv(1);
+                        return false;
+                    } else
+                        if ((charCode >= 48 && charCode <= 90) || charCode == 8) { //chu cai va so
+                            keyword = e1.value;
+                            if (keyword.length > 1) {
+                                //$("#searchingkeyword").html(keyword);
+                                //$("#boxSuggestion").html("");
+                                $(".result").html("");
+                                $("#boxDiv").show();
+                                if (timeout != null) clearTimeout(timeout);
+                                if (ajaxObj != null) ajaxObj.abort();
+                                timeout = setTimeout("callService()", 500);
+                            } else {
+                                $("#boxDiv").hide();
+                                $("#imgLoadding").hide();
+                            }
+                        }
+        }
+        function selectDiv(position) {
+
+            curPointer += position;
+            if (curPointer < -1) {
+                curPointer = -1;
+                curLink = "";
+            }
+            if (curPointer > countDivItem) curPointer = countDivItem;
+            divItems.removeClass("phongtdSugAc");
+            $("#boxSuggestion a:eq(" + curPointer + ")").addClass("phongtdSugAc");
+            curLink = $(".phongtdSugAc").attr('href');
+        }
+
+        function callService() {
+            $("#imgLoadding").show();
+            $(".sugKey").text("Kết quả tìm kiếm với “" + keyword + "”");
+            $("#boxSuggestion").hide();
+            $.getJSON("http://api.phim.soha.vn/suggestion/su_film_actor.ashx?key=" + keyword + "&topfilm=4&version=1&topactor=3&callback=?", function (data) {
+                var temp = eval("data.return");
+                var myObject = eval('(' + temp + ')');
+                var suggessionHtml = "<div id='suggesstion' class='sug'>";
+                var suggessionActorHtml = "<div id='suggesstionActor'  class='sug'>";
+
+                for (var i = 0; i < myObject.length; i++) {
+                    var type = myObject[i].Type;
+                    var html = "<a class='sugItem' href='";
+                    if (type == 1)
+                        html += LinkToWathFilmHD(myObject[i].filmHdId, myObject[i].filmTitleEN, 0) + "'>";
+                    else
+                        html += LinkToWathStar(myObject[i].filmId, myObject[i].filmTitle) + "'>";
+                    html += "<img src='http://sohaphim.vcmedia.vn/zoom/130_187/" + myObject[i].filmThumb + "' onerror='this.src=\"http://phim.soha.vn/images/404_thumb_film.jpg\";'/>";
+                    if (type == 1)
+                        html += "<div class='sugtitleen'><b>" + ExtractString(myObject[i].filmTitleEN, 30) + " (" + myObject[i].filmYear + ")</b></div>";
+                    else
+                        html += "<div class='sugtitleen'><b>" + myObject[i].filmTitleEN + "</b></div>";
+                    html += "<div class='sugtitlevi'>" + myObject[i].filmTitle + "</div>";
+                    html += "</a>";
+                    if (type == 1) {
+                        suggessionHtml += html;
+                    }
+                    else {
+                        suggessionActorHtml += html;
+                    }
+                }
+                suggessionHtml += "</div>";
+                suggessionActorHtml += "</div>";
+                $("#resultFilm").html(suggessionHtml);
+                $("#resultActor").html(suggessionActorHtml);
+
+                if ($("#suggesstion .sugItem").size() > 0) {
+                    $("#lstResultSearchFilm").show();
+                }
+                else {
+                    $("#lstResultSearchFilm").hide();
+                }
+                if ($("#suggesstionActor .sugItem").size() > 0) {
+                    $("#lstResultSearchActor").show();
+                }
+                else {
+                    $("#lstResultSearchActor").hide();
+                }
+
+                $("#imgLoadding").hide();
+                $("#boxSuggestion").show();
+                divItems = $(".sugItem");
+                for (var j = 0; ; j++) {
+                    if (divItems[j] == null) {
+                        countDivItem = j - 1;
+                        break;
+                    }
+                }
+                curPointer = -1;
+            });
+        }
+
+        function LinkToWathFilmHD(idfilmHD, title, episode) {
+            title = strReplace(title);
+            var url = "/hd/watch/" + idfilmHD + "/" + episode + "/phim-hd-" + title + ".html";
+            if (url.Length > 250)
+                url = "/hd/watch/" + idfilmHD + "/" + episode + "/phim-hd-soha-vn.html";
+            return url;
+        }
+        function LinkToWathStar(starID, title) {
+            title = strReplace(title); http: //phim.soha.vn/star/684132/jaro
+            var url = "/star/" + starID + "/" + title + ".html";
+            if (url.Length > 250)
+                var url = "/star/" + starID + "/dien-vien-soha-phim-vn.html";
+            return url;
+        }
+        //        function strReplace(str) {
+        //            var l;
+        //            var from = "àáäâèéëêìíïîòóöôơùúüûñç ưệếỏăầụờộớỉứạÚỹẻốÁẢỗ:ọồợảềấỷ";
+        //            var to = "aaaaeeeeiiiiooooouuuunc-ueeoaauoooiuauyeoaao-oooaeay";
+        //            for (var i = 0, l = from.length; i < l; i++) {
+        //                str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+        //            }
+        //            return str;
+        //        }
+        //        for (var cn = 0; cn < 1000; cn++) {
+        //            for (var c = 0; c < uniStrings.length; c++) {
+        //            strReplace(uniStrings[c]);
+        //            }
+        //        }
+    </script>
+    <div class="fRight" style="margin: 6px 11px 0px 0px;">
+        
+        <div id="btnsScoins">
+            <a id="thuebaole2" href="javascript:void(0)" onclick="alert('Bạn hãy đăng nhập để mua SCoin.');"></a><a id="payment5" href="javascript:void(0)" onclick="openMyModal('http://pay.phim.soha.vn/payment2/step1?key=WD%2b5pJm%2bIkVl2R1CW9tN%2byJowKajRX6emFdOnM7h4ljMfioEOwB%2fH66tFLReutfrGW%2frYDhceSEFiYsRyWItiA%3d%3d');"></a>
+        </div>
+    </div>
+    <div class="clear">
+    </div>
+</div>
+<div id="loginEvent" style="padding: 0; overflow: hidden;">
+</div>
+<div id="page_header1_lblMesVip" style="display: none">
+</div>
+
+
+        <!--Page Header-->
+        <div class="tWrap">
+            <!--MainMenu-->
+            
+<div class="menubar">
+    <a href="http://phim.soha.vn/" class="iconHome" id="home"></a><span class="dlmenu"></span>
+    <div class="fLeft rel dvGuide collDiv" mid="0">
+        <a href="javascript:void(0)" class="sohamenu_collection">Danh mục <span class="menu_arrow">
+        </span></a>
+        <div class="subMenuContent">
+            <div class="border m0 paneloverlay lstInstaPlayer" style="border: 2px solid #1977B0;
+                width: 976px; border-top: none; left: -74px;">
+                <div class="m0 lstCat">
+                    <div class="lCat">
+                        <h2 class="font14 bold cG">
+                            Quốc gia:</h2>
+                        <ul>
+                            
+                                    <li><a href="http://phim.soha.vn/quoc-gia/1/1/Au-My.html">
+                                        Âu Mỹ</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/quoc-gia/2/1/Han-Quoc.html">
+                                        Hàn Quốc</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/quoc-gia/3/1/Trung-Quoc.html">
+                                        Trung Quốc</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/quoc-gia/4/1/Hong-Kong.html">
+                                        Hồng Kông</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/quoc-gia/5/1/Viet-Nam.html">
+                                        Việt Nam</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/quoc-gia/6/1/Nhat-Ban.html">
+                                        Nhật Bản</a></li>
+                                
+                        </ul>
+                    </div>
+                    <div class="rCat fLeft" style="margin-left: 10px;">
+                        <h2 class="font14 bold cG pl12">
+                            Thể loại:</h2>
+                        <ul class="over pl12 boderL">
+                            
+                                    <li><a href="http://phim.soha.vn/the-loai/1/1/Hanh-dong.html">
+                                        Hành động</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/the-loai/2/1/Phieu-luu.html">
+                                        Phiêu lưu</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/the-loai/3/1/Hoat-hinh.html">
+                                        Hoạt hình</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/the-loai/4/1/Hai-huoc.html">
+                                        Hài hước</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/the-loai/5/1/Hinh-su.html">
+                                        Hình sự</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/the-loai/6/1/Tam-ly.html">
+                                        Tâm lý</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/the-loai/7/1/Kinh-di.html">
+                                        Kinh dị</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/the-loai/9/1/Vien-tuong.html">
+                                        Viễn tưởng</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/the-loai/11/1/Chien-tranh.html">
+                                        Chiến tranh</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/the-loai/13/1/Kiem-hiep.html">
+                                        Kiếm hiệp</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/the-loai/17/1/Tai-lieu.html">
+                                        Tài liệu</a></li>
+                                
+                                    <li><a href="http://phim.soha.vn/the-loai/18/1/TV-Show.html">
+                                        TV Show</a></li>
+                                
+                        </ul>
+                    </div>
+                    <div class="dis fLeft" style="width: 681px; height: 280px;">
+                        <div class="clear over">
+                            <div class="dis bold" style="color: #333; padding-left: 20px; margin-bottom: 5px;">
+                                PHIM HAY KHÔNG THỂ BỎ QUA
+                            </div>
+                            <div class="dis menu_foo_slide" cid="00">
+                                
+                                <center style="margin-top: 100px">
+                                    <img src="http://phim.soha.vn/images/loading.png" /></center>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fLeft rel collDiv div_menu" pcid="0">
+        <span class="menu_pc"></span>
+    </div>
+    <div class="fLeft rel dvGuide collDiv" mid="1">
+        <a href="javascript:void(0)" class="sohamenu_collection">Phim lẻ <span class="menu_arrow">
+        </span></a>
+        <div class="subMenuContent">
+            <div id="div_menu_le" class="border m0 paneloverlay lstInstaPlayer" style="border: 2px solid #1977B0;
+                width: 976px; border-top: none; left: -190px;">
+                <div class="m0 lstCat">
+                    <div class="fLeft">
+                        <div class="lCat">
+                            <h2 class="font14 bold cG">
+                                Quốc gia:</h2>
+                            <ul>
+                                
+                                        <li><a href="http://phim.soha.vn/phim-le/quoc-gia/1/1/Au-My.html">
+                                            Âu Mỹ</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/quoc-gia/2/1/Han-Quoc.html">
+                                            Hàn Quốc</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/quoc-gia/3/1/Trung-Quoc.html">
+                                            Trung Quốc</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/quoc-gia/4/1/Hong-Kong.html">
+                                            Hồng Kông</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/quoc-gia/5/1/Viet-Nam.html">
+                                            Việt Nam</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/quoc-gia/6/1/Nhat-Ban.html">
+                                            Nhật Bản</a></li>
+                                    
+                            </ul>
+                        </div>
+                        <div class="rCat fLeft" style="margin-left: 10px;">
+                            <h2 class="font14 bold cG pl12">
+                                Thể loại:</h2>
+                            <ul class="over pl12 boderL">
+                                
+                                        <li><a href="http://phim.soha.vn/phim-le/the-loai/1/1/Hanh-dong.html">
+                                            Hành động</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/the-loai/2/1/Phieu-luu.html">
+                                            Phiêu lưu</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/the-loai/3/1/Hoat-hinh.html">
+                                            Hoạt hình</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/the-loai/4/1/Hai-huoc.html">
+                                            Hài hước</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/the-loai/5/1/Hinh-su.html">
+                                            Hình sự</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/the-loai/6/1/Tam-ly.html">
+                                            Tâm lý</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/the-loai/7/1/Kinh-di.html">
+                                            Kinh dị</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/the-loai/9/1/Vien-tuong.html">
+                                            Viễn tưởng</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/the-loai/11/1/Chien-tranh.html">
+                                            Chiến tranh</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/the-loai/13/1/Kiem-hiep.html">
+                                            Kiếm hiệp</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/the-loai/17/1/Tai-lieu.html">
+                                            Tài liệu</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-le/the-loai/18/1/TV-Show.html">
+                                            TV Show</a></li>
+                                    
+                            </ul>
+                        </div>
+                        <div class="clear bold font14" style="padding: 10px 0px 10px 102px;">
+                            <a href="http://phim.soha.vn/1/phim-le.html">Tất cả phim lẻ
+                            </a>
+                        </div>
+                    </div>
+                    <div class="dis fLeft" style="width: 681px; height: 280px;">
+                        <div class="clear over">
+                            <div class="dis bold" style="color: #333; padding-left: 20px; margin-bottom: 5px;">
+                                PHIM LẺ MỚI HOT
+                            </div>
+                            <div class="dis menu_le_foo_slide" cid="01">
+                                
+                                <center style="margin-top: 100px">
+                                    <img src="http://phim.soha.vn/images/loading.png" /></center>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fLeft rel collDiv div_menu" pcid="1">
+        <span class="menu_pc"></span>
+    </div>
+    <div class="fLeft rel dvGuide collDiv" mid="2">
+        <a href='javascript:void(0)' class="sohamenu_collection">Phim bộ <span class="menu_arrow">
+        </span></a>
+        <div class="subMenuContent">
+            <div id="div_menu_bo" class="border m0 paneloverlay lstInstaPlayer" style="border: 2px solid #1977B0;
+                width: 976px; border-top: none; left: -287px;">
+                <div class="m0 lstCat">
+                    <div class="fLeft">
+                        <div class="lCat">
+                            <h2 class="font14 bold cG">
+                                Quốc gia:</h2>
+                            <ul>
+                                
+                                        <li><a href="http://phim.soha.vn/phim-bo/quoc-gia/1/1/Au-My.html">
+                                            Âu Mỹ</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/quoc-gia/2/1/Han-Quoc.html">
+                                            Hàn Quốc</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/quoc-gia/3/1/Trung-Quoc.html">
+                                            Trung Quốc</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/quoc-gia/4/1/Hong-Kong.html">
+                                            Hồng Kông</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/quoc-gia/5/1/Viet-Nam.html">
+                                            Việt Nam</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/quoc-gia/6/1/Nhat-Ban.html">
+                                            Nhật Bản</a></li>
+                                    
+                            </ul>
+                        </div>
+                        <div class="rCat fLeft" style="margin-left: 10px;">
+                            <h2 class="font14 bold cG pl12">
+                                Thể loại:</h2>
+                            <ul class="over pl12 boderL">
+                                
+                                        <li><a href="http://phim.soha.vn/phim-bo/the-loai/1/1/Hanh-dong.html">
+                                            Hành động</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/the-loai/2/1/Phieu-luu.html">
+                                            Phiêu lưu</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/the-loai/3/1/Hoat-hinh.html">
+                                            Hoạt hình</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/the-loai/4/1/Hai-huoc.html">
+                                            Hài hước</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/the-loai/5/1/Hinh-su.html">
+                                            Hình sự</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/the-loai/6/1/Tam-ly.html">
+                                            Tâm lý</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/the-loai/7/1/Kinh-di.html">
+                                            Kinh dị</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/the-loai/9/1/Vien-tuong.html">
+                                            Viễn tưởng</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/the-loai/11/1/Chien-tranh.html">
+                                            Chiến tranh</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/the-loai/13/1/Kiem-hiep.html">
+                                            Kiếm hiệp</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/the-loai/17/1/Tai-lieu.html">
+                                            Tài liệu</a></li>
+                                    
+                                        <li><a href="http://phim.soha.vn/phim-bo/the-loai/18/1/TV-Show.html">
+                                            TV Show</a></li>
+                                    
+                            </ul>
+                        </div>
+                        <div class="clear bold font14" style="padding: 10px 0px 10px 102px;">
+                            <a href="http://phim.soha.vn/1/phim-bo.html">Tất cả phim bộ
+                            </a>
+                        </div>
+                    </div>
+                    <div class="dis fLeft" style="width: 681px; height: 280px;">
+                        <div class="clear over">
+                            <div class="dis bold" style="color: #333; padding-left: 20px; margin-bottom: 5px;">
+                                PHIM BỘ MỚI HOT
+                            </div>
+                            <div class="dis menu_bo_foo_slide" cid="02">
+                                
+                                <center style="margin-top: 100px">
+                                    <img src="http://phim.soha.vn/images/loading.png" /></center>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fLeft rel collDiv div_menu" pcid="2">
+        <span class="menu_pc"></span>
+    </div>
+    <div class="fLeft rel dvGuide collDiv">
+        <a href='http://phim.soha.vn/1/phim-mien-phi.html' class="sohamenu_collection">
+            Phim miễn phí</a>
+    </div>
+    <div class="fLeft rel collDiv div_menu" pcid="3">
+        <span class="menu_pc"></span>
+    </div>
+    <div class="fLeft rel dvGuide collDiv">
+        
+        <a href='http://phim.soha.vn/show-truyen-hinh.html' class="sohamenu_collection">Show truyền hình <img src="http://phim.soha.vn/images/icon_new_3.gif" style="border:none"/></a>
+    </div>
+    
+    
+    <span class="drmenu"></span>
+    <script type="text/javascript">
+        var guidValue;
+        $(document).ready(function () {
+            guidValue = $(".guidValue").html();
+
+            $("#taisohaplayer3").attr("href", "javascript:void(0);");
+            $("#taisohaplayer3").click(function () {
+                downloadPlayer("http://phim.soha.vn/huong-dan-cai-soha-player.html", guidValue);
+            });
+        });
+    </script>
+    <div id="page_mainmenu1_guidValue" style="display: none;">43c2c628-f565-43ab-8a51-e118d3b95504</div>
+    <div id="taiplayer">
+        <a id="taisohaplayer3" href="#"><span>Tải </span>SohaPlayer<span id="icoTaiplayer"></span></a>
+    </div>
+</div>
+<!--Recomment Box -->
+<div class="boxRecomment" id="panelrecomment" style="display: none">
+    <div class="bBut">
+        <a href="javascript:void(0)" class="iconPrevL"></a>
+    </div>
+    <p class="splitBL">
+    </p>
+    <div class="reContent lstRecommFilm">
+        <p class="bold mt7" style="margin-left: 10px">
+            Dưới đây là một vài bộ phim bạn nên xem dựa trên lịch sử xem phim của bạn. Bạn càng
+            xem nhiều, Soha Phim sẽ càng đưa ra lời khuyên chính xác</p>
+        <div id="lstRecommFilm">
+            <div class="thinkingman">
+                <span>Ummm...Để tôi suy nghĩ một chút về vấn đề này nhé!</span><img src="http://phim.soha.vn/images/loading.png" />
+            </div>
+        </div>
+    </div>
+    <p class="splitBR">
+    </p>
+    <div class="bBut">
+        <a href="javascript:void(0)" class="iconNextL"></a>
+    </div>
+</div>
+<script type="text/javascript">
+    //    var timer_mainmenu;
+    //    $(function () {
+
+    //        $.ajax({
+    //            type: "GET",
+    //            url: "/ajaxload/watchList.aspx",
+    //            data: "&type=0",
+    //            timeout: 15000,
+    //            success: function (retval) {
+    //                $(".subMenuContent2").html(retval);
+    //            }
+    //        });
+    //    });
+
+    $(".dvGuide").each(function () {
+        $(this).click(function () {
+            var menumain = $(this);
+            var subobj = $(menumain).children(".subMenuContent");
+            $(subobj).show();
+
+            var dvguide = $(menumain);
+            var mid = $(dvguide).attr("mid");
+            if (mid != undefined) {
+
+                var dvreturn = $("div[cid='0" + mid + "']");
+                if (navigator.userAgent.indexOf('MSIE 9.0') != -1) {
+                    switch (mid) {
+                        case "1":
+                            $("#div_menu_le").css("left", "-193px");
+                            break;
+                        case "2":
+                            $("#div_menu_bo").css("left", "-293px");
+                            break;
+                    }
+                }
+                $.ajax({
+                    type: "GET",
+                    url: "/ajaxload/load_menu_phim.aspx?menu=" + mid,
+                    cache: true,
+                    success: function (data) {
+                        $(dvreturn).html(data);
+                        $(dvguide).removeAttr("mid");
+                    }
+                });
+            }
+        });
+        $(this).hover(function () {
+            $(".dvGuide").removeClass("active");
+            $(this).addClass("active");
+
+            var index_pc = $(".dvGuide").index($(this));
+            $("div[pcid='" + (index_pc - 1) + "'] span").removeClass("menu_pc").addClass("menu_pc2");
+            $("div[pcid='" + index_pc + "'] span").removeClass("menu_pc").addClass("menu_pc2");
+            //var menumain = $(this);
+            //            timer_mainmenu = setTimeout(function () {
+            //              
+            //            }, 250);
+
+        }, function () {
+            //clearTimeout(timer_mainmenu);
+            $(".subMenuContent").hide();
+            $(".dvGuide").removeClass("active");
+            $("div.div_menu span").removeClass("menu_pc2").addClass("menu_pc");
+
+        });
+    });
+
+</script>
+<!--Recomment Box -->
+<script type="text/javascript">
+    //    $(function () {
+    //        $.ajax({
+    //            type: "GET",
+    //            url: "/ajaxload/recommentlist.aspx",
+    //            data: "",
+    //            success: function (retval) {
+    //                $("#lstRecommFilm").html(retval);
+    //                $("#lstRecommFilm .img").hover(function () { $(".iconPlayL", $(this)).show(); }, function () { $(".iconPlayL", $(this)).hide(); })
+    //                $("#lstRecommFilm .hidden-tip").each(function () {
+    //                    var fID = $(this).attr("fID");
+    //                    $(this).load("/ajaxload/popupFilm.aspx?id=" + fID, function (ret) {
+    //                        $("#lstRecommFilm .img").easyTooltip({
+    //                            useElement: "hidden-tip"
+    //                        });
+    //                    })
+    //                })
+    //            }
+    //        });
+    //    });
+
+    //    function toggleRecomment(obj) {
+    //        $("#panelrecomment").toggle();
+    //        $(obj).toggleClass("active");
+    //        $("#lstRecommFilm").carouFredSel({
+    //            width: 903,
+    //            circular: true,
+    //            infinite: true,
+    //            auto: false,
+    //            scroll: {
+    //                items: "page"
+    //            },
+    //            prev: {
+    //                button: ".iconPrevL",
+    //                key: "left"
+    //            },
+    //            next: {
+    //                button: ".iconNextL",
+    //                key: "right"
+    //            }
+    //        });       
+    //    }   
+</script>
+
+            <!--MainMenu-->
+            <div class="lWrap">
+                <div id="div_box_player" style="display: none" class="border m0 lstFilm box_player">
+                    <img alt="" src="http://phim.soha.vn/images/3imgboxplayer_korea.png" />
+                    <ul>
+                        <li>Nếu trình duyệt không tự động tải, <a id="lnkDownloadPlaer" href="javascript:void(0);" style="display: inline-block;">
+                            click vào đây</a> để tải lại. Xem <a href="http://phim.soha.vn/huong-dan/1/Huong-dan-cai-Soha-Player.html"
+                                style="display: inline-block;">hướng dẫn</a> cài Soha Player.</li>
+                    </ul>
+                    <img id="img_mac" alt="" src="http://phim.soha.vn/images/3imgplayer_korea1.jpg" />
+                    <ul style="padding-top: 10px">
+                        <li>Sau khi cài đặt <b class="chuoi">Soha Player</b>, bạn có thể <b class="chuoi">xem thử phim HD miễn phí ngay lập tức</b> trong
+                            danh sách dưới đây. </li>
+                        <li>Với lần đầu cài đặt, <b class="chuoi">bạn được xem thỏa thích toàn bộ kho phim của Soha Phim</b> trong
+                            3 ngày. Sau đó, bạn chỉ cần đăng ký/đăng nhập và nhắn tin hoặc mua gói cước để tiếp
+                            tục xem phim. </li>
+                    </ul>
+                </div>
+                <div class="mt12 clear over">
+                    <p class="deBlue"></p><h2 class="cat"><a id="collectionTitle">Phim Lẻ Tuyển Chọn</a></h2>
+                </div>
+                 <div class="border ntBor m0 lstFilm">
+                    
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/6538/0/phim-hd-Lethal-Hostage.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/10/19/KPYNLL5P.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="387039" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='387039'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/6538/0/phim-hd-Lethal-Hostage.html" class="bold over">
+                                    Lethal Hostage (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/6538/0/phim-hd-Lethal-Hostage.html" class="titEn h16 over">Tội Phạm Biên Giới</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/6536/0/phim-hd-Maximum-Conviction.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2010201210283104204789.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="387611" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='387611'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/6536/0/phim-hd-Maximum-Conviction.html" class="bold over">
+                                    Maximum Conviction (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/6536/0/phim-hd-Maximum-Conviction.html" class="titEn h16 over">Quyết Định Tối Cao</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/6612/0/phim-hd-Ruby-Sparks.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2610201274331401205460.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="387703" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='387703'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/6612/0/phim-hd-Ruby-Sparks.html" class="bold over">
+                                    Ruby Sparks (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/6612/0/phim-hd-Ruby-Sparks.html" class="titEn h16 over">Người Phụ Nữ Hoàn Hảo</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/6515/0/phim-hd-Saints-and-Soldiers-Airborne-Creed.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/17102012173558827204129.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="387590" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='387590'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/6515/0/phim-hd-Saints-and-Soldiers-Airborne-Creed.html" class="bold over">
+                                    Saints and Soldiers Airborne Creed (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/6515/0/phim-hd-Saints-and-Soldiers-Airborne-Creed.html" class="titEn h16 over">Chiến Binh Mang Tên ...</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/5358/0/phim-hd-Vo-Dang-That-Bao.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/10/24/LQICPIGV.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="386216" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='386216'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/5358/0/phim-hd-Vo-Dang-That-Bao.html" class="bold over">
+                                    Võ Đang Thất Bảo (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/5358/0/phim-hd-Vo-Dang-That-Bao.html" class="titEn h16 over">Great Wudang</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/3552/0/phim-hd-Act-Of-Valor.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/154201215365379845888.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="10942" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='10942'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/3552/0/phim-hd-Act-Of-Valor.html" class="bold over">
+                                    Act Of Valor (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/3552/0/phim-hd-Act-Of-Valor.html" class="titEn h16 over">Biệt Kích Ngầm</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/4833/0/phim-hd-Men-In-Black-III.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/9/14/DVFVLBIN.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="384916" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='384916'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/4833/0/phim-hd-Men-In-Black-III.html" class="bold over">
+                                    Men In Black III (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/4833/0/phim-hd-Men-In-Black-III.html" class="titEn h16 over">Đặc Vụ Áo Đen 3</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/4005/0/phim-hd-Wrath-Of-The-Titans.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/6/12/3HP5K8MG.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="117321" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='117321'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/4005/0/phim-hd-Wrath-Of-The-Titans.html" class="bold over">
+                                    Wrath Of The Titans (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/4005/0/phim-hd-Wrath-Of-The-Titans.html" class="titEn h16 over">Sự Phẫn Nộ Của Các Vị ...</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/6137/0/phim-hd-6-Bullets.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/10/26/6I9X3HAL.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="387113" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='387113'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/6137/0/phim-hd-6-Bullets.html" class="bold over">
+                                    6 Bullets (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/6137/0/phim-hd-6-Bullets.html" class="titEn h16 over">6 Viên Đạn</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/6575/0/phim-hd-No-Saints-For-Sinners.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/10/29/AK464E3W.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="387657" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='387657'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/6575/0/phim-hd-No-Saints-For-Sinners.html" class="bold over">
+                                    No Saints For Sinners (2011)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/6575/0/phim-hd-No-Saints-For-Sinners.html" class="titEn h16 over">Vòng Xoáy Tội Lỗi</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/332/0/phim-hd-Inglourious-Basterds.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/10/22/O7QQDK41.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="3397" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='3397'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/332/0/phim-hd-Inglourious-Basterds.html" class="bold over">
+                                    Inglourious Basterds (2009)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/332/0/phim-hd-Inglourious-Basterds.html" class="titEn h16 over">Những Tên Khốn Kiếp</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/1427/0/phim-hd-The-Prestige.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/1310201116583952.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="5624" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='5624'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/1427/0/phim-hd-The-Prestige.html" class="bold over">
+                                    The Prestige (2006)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/1427/0/phim-hd-The-Prestige.html" class="titEn h16 over">Ảo Thuật Gia Đấu Trí</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/6517/0/phim-hd-Killer-Joe.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/10/22/13X83QWD.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="387592" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='387592'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/6517/0/phim-hd-Killer-Joe.html" class="bold over">
+                                    Killer Joe (2011)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/6517/0/phim-hd-Killer-Joe.html" class="titEn h16 over">Hợp Đồng Sát Thủ</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/6590/0/phim-hd-To-Rome-with-Love.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/10/23/E8RCL6AB.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="387679" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='387679'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/6590/0/phim-hd-To-Rome-with-Love.html" class="bold over">
+                                    To Rome with Love (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/6590/0/phim-hd-To-Rome-with-Love.html" class="titEn h16 over">Tình Yêu Đến Từ Rome</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/616/0/phim-hd-310-To-Yuma.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/3/5/2KECH7CC.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="1993" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='1993'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/616/0/phim-hd-310-To-Yuma.html" class="bold over">
+                                    3:10 To Yuma (2007)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/616/0/phim-hd-310-To-Yuma.html" class="titEn h16 over">Chuyến Tàu Tới Yuma</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/746/0/phim-hd-Wrong-Turn-4.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/3/16/G5CO9UBQ.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="5685" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='5685'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/746/0/phim-hd-Wrong-Turn-4.html" class="bold over">
+                                    Wrong Turn 4 (2011)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/746/0/phim-hd-Wrong-Turn-4.html" class="titEn h16 over">Ngã Rẽ Tử Thần 4</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/2957/0/phim-hd-Sleeping-Beauty.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/3/20/D9V81WMR.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="5851" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='5851'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/2957/0/phim-hd-Sleeping-Beauty.html" class="bold over">
+                                    Sleeping Beauty (2011)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/2957/0/phim-hd-Sleeping-Beauty.html" class="titEn h16 over">Người Đẹp Ngủ</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/1561/0/phim-hd-Another-Earth.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/3/22/QWXZBUOZ.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="6433" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='6433'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/1561/0/phim-hd-Another-Earth.html" class="bold over">
+                                    Another Earth (2011)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/1561/0/phim-hd-Another-Earth.html" class="titEn h16 over">Một Trái Đất Khác</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/2194/0/phim-hd-A-Separation.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/10/25/XYPMDA6T.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="8766" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='8766'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/2194/0/phim-hd-A-Separation.html" class="bold over">
+                                    A Separation (2011)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/2194/0/phim-hd-A-Separation.html" class="titEn h16 over">Ngăn Cách</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/3127/0/phim-hd-The-Fall.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/10/25/F8ENNNSO.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="10074" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='10074'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/3127/0/phim-hd-The-Fall.html" class="bold over">
+                                    The Fall (2006)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/3127/0/phim-hd-The-Fall.html" class="titEn h16 over">Cú Ngã</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/5453/0/phim-hd-Soldiers-of-Fortune.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/1972012104430810127778.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="386324" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='386324'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/5453/0/phim-hd-Soldiers-of-Fortune.html" class="bold over">
+                                    Soldiers of Fortune (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/5453/0/phim-hd-Soldiers-of-Fortune.html" class="titEn h16 over">Số Mệnh Chiến Binh</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/5992/0/phim-hd-Jism-2.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/10/26/WWJJZWC8.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="386941" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='386941'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/5992/0/phim-hd-Jism-2.html" class="bold over">
+                                    Jism 2 (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/5992/0/phim-hd-Jism-2.html" class="titEn h16 over">Thân Thể Quyến Rũ 2</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/6469/0/phim-hd-Magic-Mike.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/10/26/2GF4X17B.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="387528" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='387528'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/6469/0/phim-hd-Magic-Mike.html" class="bold over">
+                                    Magic Mike (2012)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/6469/0/phim-hd-Magic-Mike.html" class="titEn h16 over">Anh Chàng Vũ Công</a>
+                                
+                            </div>                        
+                        
+                               
+                            <div class="item trigger">
+                                <div class="img">
+                                    <a href="http://phim.soha.vn/hd/watch/6577/0/phim-hd-Goodbye-First-Love.html" ><img src="http://sohaphim.vcmedia.vn/zoom/218_315/bbthumbs/filminfo/2012/10/23/GZWU1EQR.jpg" width="130" height="187" class="imgnone" onerror="this.src='http://phim.soha.vn/images/404_thumb_film.jpg';"/>
+                                         <span class="iconPlayL"></span>
+                                    </a>
+                                     <div class="divWatchLate">
+                                            <a href="javascript:void(0)" class="btnXemSau" shpid="387661" filmtype="0">
+                                                <span>Xem sau</span><div id="plusBtn">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <div class="hidden-tip" fID='387661'></div>
+                                    
+                                </div>
+                                <a href="http://phim.soha.vn/hd/watch/6577/0/phim-hd-Goodbye-First-Love.html" class="bold over">
+                                    Goodbye First Love (2011)
+                                </a>
+                                <a href="http://phim.soha.vn/hd/watch/6577/0/phim-hd-Goodbye-First-Love.html" class="titEn h16 over">Dang Dở Tình Đầu</a>
+                                
+                            </div>                        
+                        
+
+                    <span id="lblPaging" class="pageingpanel mt12"><a href="javascript:void(0);" class="disable prev"></a><a class='active' href='http://phim.soha.vn/top/152/1/Phim-Le-Tuyen-Chon.html' title="Trang 1" >1</a><a href='http://phim.soha.vn/top/152/2/Phim-Le-Tuyen-Chon.html' title="Trang 2">2</a><a href='http://phim.soha.vn/top/152/3/Phim-Le-Tuyen-Chon.html' title="Trang 3">3</a><a href='http://phim.soha.vn/top/152/4/Phim-Le-Tuyen-Chon.html' title="Trang 4">4</a><a href='http://phim.soha.vn/top/152/5/Phim-Le-Tuyen-Chon.html' title="Trang 5">5</a><a href="javascript:void(0);" class="dot">...</a><a href='http://phim.soha.vn/top/152/40/Phim-Le-Tuyen-Chon.html' title="Trang 40">40</a><a href='http://phim.soha.vn/top/152/41/Phim-Le-Tuyen-Chon.html' title="Trang 41">41</a><a href='http://phim.soha.vn/top/152/42/Phim-Le-Tuyen-Chon.html' title="Trang 42">42</a><a href='http://phim.soha.vn/top/152/2/Phim-Le-Tuyen-Chon.html' title="Trang 2" class="next"></a></span>
+                    <input name="hidCatID" type="hidden" id="hidCatID" />
+                 </div>
+                 
+            </div>
+            <div class="rWrap">
+                <!-- Soha Collections -->
+                
+<div class="mt12 clear over">
+    <p class="deGreen"></p>
+    <h2 class="cat" style="border:none;height:24px"><a>Danh mục</a></h2>
+</div>
+<div class="border ntBor m0 lstCat">
+    <div class="lCat">
+        <h2 class="font14 bold cG">Quốc gia:</h2>
+        <ul>
+            
+                    <li><a href="http://phim.soha.vn/quoc-gia/1/1/Au-My.html">Âu Mỹ</a></li>
+                
+                    <li><a href="http://phim.soha.vn/quoc-gia/2/1/Han-Quoc.html">Hàn Quốc</a></li>
+                
+                    <li><a href="http://phim.soha.vn/quoc-gia/3/1/Trung-Quoc.html">Trung Quốc</a></li>
+                
+                    <li><a href="http://phim.soha.vn/quoc-gia/4/1/Hong-Kong.html">Hồng Kông</a></li>
+                
+                    <li><a href="http://phim.soha.vn/quoc-gia/5/1/Viet-Nam.html">Việt Nam</a></li>
+                
+                    <li><a href="http://phim.soha.vn/quoc-gia/6/1/Nhat-Ban.html">Nhật Bản</a></li>
+                
+        </ul>
+    </div>
+    <div class="rCat">
+        <h2 class="font14 bold cG pl12">Thể loại:</h2>
+        <ul class="over pl12 boderL">
+            
+                    <li><a href="http://phim.soha.vn/the-loai/1/1/Hanh-dong.html">Hành động</a></li>
+                
+                    <li><a href="http://phim.soha.vn/the-loai/2/1/Phieu-luu.html">Phiêu lưu</a></li>
+                
+                    <li><a href="http://phim.soha.vn/the-loai/3/1/Hoat-hinh.html">Hoạt hình</a></li>
+                
+                    <li><a href="http://phim.soha.vn/the-loai/4/1/Hai-huoc.html">Hài hước</a></li>
+                
+                    <li><a href="http://phim.soha.vn/the-loai/5/1/Hinh-su.html">Hình sự</a></li>
+                
+                    <li><a href="http://phim.soha.vn/the-loai/6/1/Tam-ly.html">Tâm lý</a></li>
+                
+                    <li><a href="http://phim.soha.vn/the-loai/7/1/Kinh-di.html">Kinh dị</a></li>
+                
+                    <li><a href="http://phim.soha.vn/the-loai/9/1/Vien-tuong.html">Viễn tưởng</a></li>
+                
+                    <li><a href="http://phim.soha.vn/the-loai/11/1/Chien-tranh.html">Chiến tranh</a></li>
+                
+                    <li><a href="http://phim.soha.vn/the-loai/13/1/Kiem-hiep.html">Kiếm hiệp</a></li>
+                
+                    <li><a href="http://phim.soha.vn/the-loai/17/1/Tai-lieu.html">Tài liệu</a></li>
+                
+                    <li><a href="http://phim.soha.vn/the-loai/18/1/TV-Show.html">TV Show</a></li>
+                
+        </ul>
+    </div>
+</div>
+
+                <!-- Soha Collections -->
+                 <div class="mt12 clear over">
+                    
+        <a href='javascript:void(0);'><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" width="300" height="300" id="adFlash"> <param name="movie" value="http://sohaphim.vcmedia.vn/bbthumbs/topslide/2012/7/25/E9LZ9KLE.swf" /> <param name="quality" value="high" /> <param name="bgcolor" value="#ffffff" /><param name="wmode" value="transparent" /> <embed src="http://sohaphim.vcmedia.vn/bbthumbs/topslide/2012/7/25/E9LZ9KLE.swf" quality="high" wmode="transparent" bgcolor="#ffffff" width="300" height="300" name="adFlash" align="" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"> </embed> </object></a>
+    
+
+                </div>
+                <!-- Phim hot trong tuan -->
+                
+
+<div class="mt12 clear over">
+    <script type="text/javascript" src="http://admicro1.vcmedia.vn/ads_codes/ads_box_1484.ads"></script>
+</div>
+<div class="mt12 clear over">
+    <script type="text/javascript" src="http://admicro1.vcmedia.vn/ads_codes/ads_box_1924.ads"></script>
+</div>                    
+                <!-- Phim hot trong tuan -->
+
+            </div>
+        </div>
+        <!--Footer-->
+        
+<div class="mt12 clear over" style="margin: 0px auto; width: 980px">
+    
+<div class="mt12 clear over">
+    <p class="deBlue"></p>
+    <h2 class="cat" style="border:none;height:24px"><a href="#">Top từ khoá</a></h2>
+</div>
+
+<div class="border ntBor m0 p10 paneloverlayW">
+    <ul class="xmpl" id="xlist">
+        
+                <li value="266" title="cuong thi ngan nam">
+                    <a href="http://phim.soha.vn/search/1/Y3VvbmcgdGhpIG5nYW4gbmFt/phim-cuong-thi-ngan-nam.html">cuong thi ngan nam</a> | 
+                </li>
+            
+                <li value="265" title="phim thien than quyen ru">
+                    <a href="http://phim.soha.vn/search/1/cGhpbSB0aGllbiB0aGFuIHF1eWVuIHJ1/phim-phim-thien-than-quyen-ru.html">phim thien than quyen ru</a> | 
+                </li>
+            
+                <li value="264" title="truong tam phong truong ve kien">
+                    <a href="http://phim.soha.vn/search/1/dHJ1b25nIHRhbSBwaG9uZyB0cnVvbmcgdmUga2llbg==/phim-truong-tam-phong-truong-ve-kien.html">truong tam phong truong ve kien</a> | 
+                </li>
+            
+                <li value="264" title="phim hoat hinh 7 vien ngoc rong tieng viet">
+                    <a href="http://phim.soha.vn/search/1/cGhpbSBob2F0IGhpbmggNyB2aWVuIG5nb2Mgcm9uZyB0aWVuZyB2aWV0/phim-phim-hoat-hinh-7-vien-ngoc-rong-tieng-viet.html">phim hoat hinh 7 vien ngoc rong tieng viet</a> | 
+                </li>
+            
+                <li value="264" title="biet doi danh thue">
+                    <a href="http://phim.soha.vn/search/1/YmlldCBkb2kgZGFuaCB0aHVl/phim-biet-doi-danh-thue.html">biet doi danh thue</a> | 
+                </li>
+            
+                <li value="263" title="thien su tinh yeu">
+                    <a href="http://phim.soha.vn/search/1/dGhpZW4gc3UgdGluaCB5ZXU=/phim-thien-su-tinh-yeu.html">thien su tinh yeu</a> | 
+                </li>
+            
+                <li value="263" title="xem phim soha.com.vn">
+                    <a href="http://phim.soha.vn/search/1/eGVtIHBoaW0gc29oYS5jb20udm4=/phim-xem-phim-sohacomvn.html">xem phim soha.com.vn</a> | 
+                </li>
+            
+                <li value="262" title="hoat hinh the thao">
+                    <a href="http://phim.soha.vn/search/1/aG9hdCBoaW5oIHRoZSB0aGFv/phim-hoat-hinh-the-thao.html">hoat hinh the thao</a> | 
+                </li>
+            
+                <li value="262" title="tinh yeu tim lai tap cuoi">
+                    <a href="http://phim.soha.vn/search/1/dGluaCB5ZXUgdGltIGxhaSB0YXAgY3VvaQ==/phim-tinh-yeu-tim-lai-tap-cuoi.html">tinh yeu tim lai tap cuoi</a> | 
+                </li>
+            
+                <li value="262" title="king kong">
+                    <a href="http://phim.soha.vn/search/1/a2luZyBrb25n/phim-king-kong.html">king kong</a> | 
+                </li>
+            
+                <li value="262" title="au trung ma">
+                    <a href="http://phim.soha.vn/search/1/YXUgdHJ1bmcgbWE=/phim-au-trung-ma.html">au trung ma</a> | 
+                </li>
+            
+                <li value="261" title="am duong than tuong">
+                    <a href="http://phim.soha.vn/search/1/YW0gZHVvbmcgdGhhbiB0dW9uZw==/phim-am-duong-than-tuong.html">am duong than tuong</a> | 
+                </li>
+            
+                <li value="261" title="xem phim sieu nhan">
+                    <a href="http://phim.soha.vn/search/1/eGVtIHBoaW0gc2lldSBuaGFu/phim-xem-phim-sieu-nhan.html">xem phim sieu nhan</a> | 
+                </li>
+            
+                <li value="261" title="phim châu tinh trì">
+                    <a href="http://phim.soha.vn/search/1/cGhpbSBjaMOidSB0aW5oIHRyw6w=/phim-phim-chau-tinh-tri.html">phim châu tinh trì</a> | 
+                </li>
+            
+                <li value="261" title="phim tóc rối">
+                    <a href="http://phim.soha.vn/search/1/cGhpbSB0w7NjIHLhu5Fp/phim-phim-toc-roi.html">phim tóc rối</a> | 
+                </li>
+            
+                <li value="261" title="phim sieu nhan">
+                    <a href="http://phim.soha.vn/search/1/cGhpbSBzaWV1IG5oYW4=/phim-phim-sieu-nhan.html">phim sieu nhan</a> | 
+                </li>
+            
+                <li value="261" title="phim cuong thi vui">
+                    <a href="http://phim.soha.vn/search/1/cGhpbSBjdW9uZyB0aGkgdnVp/phim-phim-cuong-thi-vui.html">phim cuong thi vui</a> | 
+                </li>
+            
+                <li value="259" title="than bai 3">
+                    <a href="http://phim.soha.vn/search/1/dGhhbiBiYWkgMw==/phim-than-bai-3.html">than bai 3</a> | 
+                </li>
+            
+                <li value="259" title="phim kungfu panda">
+                    <a href="http://phim.soha.vn/search/1/cGhpbSBrdW5nZnUgcGFuZGE=/phim-phim-kungfu-panda.html">phim kungfu panda</a> | 
+                </li>
+            
+                <li value="259" title="phim chung tu don 2010">
+                    <a href="http://phim.soha.vn/search/1/cGhpbSBjaHVuZyB0dSBkb24gMjAxMA==/phim-phim-chung-tu-don-2010.html">phim chung tu don 2010</a> | 
+                </li>
+            
+    </ul>
+    <a href="http://phim.soha.vn/topkeywords/3/video/29/top-tu-khoa.html" id="page_footer1_page_tagcloud1_keymore" class="fRight bold more font11" style="color:#1977b0">[ Xem thêm ]</a>
+</div>
+</div>
+<div class="footer">
+    <p class="arFoot">
+    </p>
+    <div class="lFooter">
+        <a href="http://phim.soha.vn/" class="sLogo"></a>
+        <p class="clear">
+            <a href="http://phim.soha.vn/huong-dan/9/Dieu-khoan-su-dung-Soha-Phim.html">Điều kiện
+                sử dụng</a></p>
+        <p class="clear" style="margin-top: 10px">
+            <a href="http://phim.soha.vn/huong-dan/29/Dam-phan-thanh-cong-ban-quyen.html">Thông
+                tin bản quyền</a></p>
+    </div>
+    <div class="rFooter">
+        <div class="clear c1">
+            <b class="cB">Hỗ trợ khách hàng:</b><br />
+            <ul>
+                <li style="color: #000;"><b>SĐT:</b> 04-39743410 Máy lẻ 175.</li>
+                <li style="color: #000;"><b>Email:</b> <a href="mailto:contact.phim@soha.vn">contact.phim@soha.vn</a></li>
+                
+                <li style="color: #000;"><b>Hotline:</b> 096 642 1277.(9h-23h30)</li>
+                <li style="color: #000; width: 165px;"><b>Hỗ trợ:</b> <a href="ymsgr:sendIM?soha_phim">
+                    <img border="0" src="http://opi.yahoo.com/online?u=soha_phim&amp;m=g&amp;t=1&amp;1=us" style="vertical-align: middle;"
+                        alt="soha_phim" /></a></li>
+                
+                
+                <li style="color: #000;"><b>Skype:</b> <a href="skype:soha_phim?chat">
+                    <img border="0" src="http://mystatus.skype.com/smallclassic/soha_phim" style="vertical-align: middle;"
+                        alt="soha_phim" /></a></li>
+            </ul>
+        </div>
+        
+        <div class="c3">
+            <b class="cB">Cơ quan chủ quản: Công ty cổ phần Truyền thông Việt Nam.</b><br />
+            <b>Số Giấy phép</b> 191/GP-TTĐT do Cục Quản lý phát thanh, truyền hình và thông
+            tin điện tử cấp ngày 19/06/2010.<br />
+            <b>Địa chỉ:</b> Tầng 16, Tòa nhà VTC, 18 Tam Trinh, Minh Khai, Hai Bà Trưng, Hà
+            Nội.<br />
+            <b>Điện thoại:</b> 04-9743410. Fax: 04-9743413.<br />
+        </div>
+    </div>
+    <div id="settingwindows">
+    </div>
+</div>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20651962-2']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20651962-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<div id="page_footer1_userClientEmail" class="userClientEmail" style="display: none;">
+</div>
+<div id="boxConfirmTB2">
+</div>
+<script type="text/javascript">
+
+    if (!getCookiesThongbao()) {
+        $.ajax({
+            type: "GET",
+            url: "/ajaxload/thongbaohethan.aspx",
+            success: function (retval) {
+                $('#boxConfirmTB2').html(retval);
+                $('#boxConfirmTB').dialog({
+                    autoOpen: false,
+                    width: 400,
+                    position: 'middle',
+                    closeText: '',
+                    title: '',
+                    closeOnEscape: true,
+                    resizable: false,
+                    modal: true,
+                    draggable: true,
+                    /* Scrollbar fix  */
+                    open: function (event, ui) { $('body').css('overflow', 'hidden'); $('.ui-widget-overlay').css('width', '100%'); },
+                    close: function (event, ui) { $('body').css('overflow', 'auto'); }
+                });
+                if ($('#openThongbao').html() == "open") {
+                    $('#boxConfirmTB').dialog('open');
+                }
+            }
+        });
+    }
+
+    function getCookiesThongbao() {
+        var userEmail = $(".userClientEmail").html();
+        if (userEmail != "") {
+            var cookies = document.cookie.split(";");
+            var userCookie = " SHP_DontdisplayInfoTB" + userEmail + "=true";
+            var userCookie2 = " SHP_DontdisplayInfoTB2" + userEmail + "=true";
+            var userCookie3 = " SHP_DontdisplayInfoTB3" + userEmail + "=true";
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i].toString();
+
+                if (cookie == userCookie || cookie == userCookie2 || cookie == userCookie3) return true;
+            }
+            return false;
+        }
+        return true;
+    }
+    //CHECK XEM THỬ HD
+    if (Get_Cookie('sug_xemthuhd') == 'true') {
+        $.ajax({
+            type: "GET",
+            url: "/ajaxload/box_xemthu_hd.aspx",
+            success: function (retval) {
+                $('#box_xem_thu_hd').html(retval);
+                $("#box_xem_thu_hd .item").groupItem(4);
+                $('#box_xem_thu_hd').dialog({
+                    autoOpen: false,
+                    width: 624,
+                    position: 'middle',
+                    closeText: '',
+                    title: '',
+                    closeOnEscape: true,
+                    resizable: false,
+                    modal: true,
+                    draggable: true,
+                    zIndex: 9,
+                    /* Scrollbar fix  */
+                    open: function (event, ui) { $('body').css('overflow', 'hidden'); $('.ui-widget-overlay').css('width', '100%'); },
+                    close: function (event, ui) { $('body').css('overflow', 'auto'); }
+                });
+
+                $('#box_xem_thu_hd').dialog('open');
+                SetCookie('sug_xemthuhd', 'false', 30);
+            }
+        });
+    }
+</script>
+
+<script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "http://logging.phim.soha.vn/" : "http://logging.phim.soha.vn/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "tk.js' type='text/javascript'%3E%3C/script%3E"));    
+</script>
+<script type="text/javascript">
+    CheckSite("http://logging.phim.soha.vn/Tracker.aspx", 1);
+</script>
+<script language="javascript" src="http://admicro1.vcmedia.vn/core/adm_tracking.js"></script>
+
+        <!--Footer-->
+    </div>
+    
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBQKLsPQqAs6MwYkBAqer7+sFAtL/2fYGAtTK9fkOtsfDg4vA9fZ0+RvKOlO6/i+1HwI=" /></form>
+</body>
+
+<!-- Mirrored from phim.soha.vn/top/152/1/Phim-Le-Tuyen-Chon.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Oct 2012 10:42:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+</html>
